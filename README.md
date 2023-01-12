@@ -33,6 +33,11 @@ npm install kivibot-plugin-setu
 * 一张图 -> `/涩图`
 * 一张图 -> `来张涩图`
 
+## 使用api
+```
+https://api.lolicon.app/setu/v2
+```
+
 
 ## TODO
 - [x] 暂时不知道做什么

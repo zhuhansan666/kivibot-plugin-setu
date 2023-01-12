@@ -95,7 +95,7 @@ size "${config.size}" dose not support, used the default size: "${defaultConfig.
 
 plugin.onMounted((bot, admin) => {
     reloadConfig()
-    plugin.onCmd(plugin.name, (event) => {
+    plugin.onCmd("setu", (event) => {
         event.reply(`〓 setu提示 〓\n您可以对我说: \n${config.commands.setu}`)
     })
     plugin.onCmd(config.commands.setu, (event, params, plugin) => hooker(event, params, plugin, setu, 1))
