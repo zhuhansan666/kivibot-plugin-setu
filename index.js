@@ -131,7 +131,7 @@ function disable(event, params, plugin, args) {
         if (gid != undefined && gid != 0) {
             console.log(config["enable-g"].length)
             if (config["enable-g"].length > 0) {
-                for (i = 0; i < c; i++) {
+                for (i = 0; i < config["enable-g"].length; i++) {
                     if (config["enable-g"][i] == gid) {
                         config["enable-g"].splice(i, 1)
                     }
