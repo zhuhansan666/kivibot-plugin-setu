@@ -1,6 +1,6 @@
 const { KiviPlugin, http, segment } = require('@kivibot/core')
 
-const apiRoot = "https://api.lolicon.app/${plugin.name}/v2"
+const apiRoot = "https://api.lolicon.app/setu/v2"
 
 const assert = require('assert');
 const { version } = require('./package.json')

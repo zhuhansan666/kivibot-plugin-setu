@@ -1,6 +1,6 @@
 {
     "name": "kivibot-plugin-setu",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "setu获取",
     "main": "index.js",
     "scripts": {
