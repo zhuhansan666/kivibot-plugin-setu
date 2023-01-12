@@ -109,7 +109,7 @@ size "${config.size}" dose not support, used the default size: "${defaultConfig.
         event.reply(segment.image(imgUrl))
     }
     const spend = (new Date().getTime() - startTime)
-    event.reply(`〓 ${plugin.name}提示 〓\n获取完成, 共${number}张, 耗时${spend / 1000}秒, 每张耗时${spend / number}毫秒`)
+    event.reply(`〓 ${plugin.name}提示 〓\n获取完成, 共${number}张, 耗时${spend / 1000}秒, 每张耗时${spend / number}毫秒\n*发送内容有较大延时, 请耐心等待`)
 }
 
 function enable(event, params, plugin, args) {
@@ -121,7 +121,7 @@ function enable(event, params, plugin, args) {
             plugin.saveConfig(config)
         }
     } else {
-        event.reply(`〓 ${plugin.name}提示 〓\nPermission Error: 非主管理员`)
+        event.reply(`〓 ${plugin.name}提示 〓\nPermission Error: 非管理员`)
     }
 }
 
@@ -141,7 +141,7 @@ function disable(event, params, plugin, args) {
             plugin.saveConfig(config)
         }
     } else {
-        event.reply(`〓 ${plugin.name}提示 〓\nPermission Error: 非主管理员`)
+        event.reply(`〓 ${plugin.name}提示 〓\nPermission Error: 非管理员`)
     }
 }
 

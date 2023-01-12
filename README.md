@@ -35,6 +35,23 @@ npm install kivibot-plugin-setu
 * 一张图 -> `/涩图`
 * 一张图 -> `来张涩图`
 
+## `Config.json`配置
+```json
+{
+    "r18": false,  // r18
+    "size": "regular",  // 图片大小(详见https://api.lolicon.app/#/setu?id=size)
+    "interval": 5000,  // 最小请求间隔(冷却时间)
+    "enable-g": [],  // 启用的群(也可使用命令配置)
+    "commands": {  // 命令关键字定义
+        "setu": [
+            "/setu",
+            "/涩图",
+            "来张涩图",
+        ],
+    }
+}
+```
+
 ## 使用api
 ```
 https://api.lolicon.app/setu/v2
