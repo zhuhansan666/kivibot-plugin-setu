@@ -29,6 +29,8 @@ npm install kivibot-plugin-setu
 ```
 
 ## 如何使用
+* 启用当前群聊 -> `#setu-e`
+* 移除启用当前群聊 -> `#setu-d`
 * 一张图 -> `/setu`
 * 一张图 -> `/涩图`
 * 一张图 -> `来张涩图`
