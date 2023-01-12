@@ -1,6 +1,6 @@
 {
     "name": "kivibot-plugin-setu",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "setu获取",
     "main": "index.js",
     "scripts": {
@@ -17,6 +17,6 @@
     "license": "AGPL-3.0-or-later",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zhuhansan666/kivibot-plugin-systools.git"
+        "url": "https://github.com/zhuhansan666/kivibot-plugin-setu.git"
     }
 }
