@@ -1,4 +1,4 @@
-# kivibot-plugin-setu
+# kivibot-plugin-setu / pupbot-plugin-setu
 > setu获取小工具
 > [更新日志](changeLog.md)
 
@@ -6,7 +6,7 @@
 
 ### 安装
 ```bash
-npm install kivibot-plugin-setu
+npm install kivibot-plugin-setu / pupbot-plugin-setu  //  请选择对应机器人的版本
 ```
 > 或在qq对机器人发送
 ```
@@ -42,6 +42,7 @@ npm install kivibot-plugin-setu
     "size": "regular",  // 图片大小(详见https://api.lolicon.app/#/setu?id=size)
     "interval": 5000,  // 最小请求间隔(冷却时间)
     "enable-g": [],  // 启用的群(也可使用命令配置)
+    "enable-f": [],  // 启用的好友(注意: 主管理员[mainAdmin]无论是否在此列表中均可使用)
     "commands": {  // 命令关键字定义
         "setu": [
             "/setu",
