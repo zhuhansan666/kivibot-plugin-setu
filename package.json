@@ -1,6 +1,6 @@
 {
     "name": "pupbot-plugin-setu",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "setu获取",
     "main": "index.js",
     "scripts": {

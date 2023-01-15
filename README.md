@@ -1,4 +1,4 @@
-# kivibot-plugin-setu / pupbot-plugin-setu
+# pupbot-plugin-setu
 > setu获取小工具
 > [更新日志](changeLog.md)
 
@@ -6,7 +6,7 @@
 
 ### 安装
 ```bash
-npm install kivibot-plugin-setu / pupbot-plugin-setu  //  请选择对应机器人的版本
+npm install pupbot-plugin-setu
 ```
 > 或在qq对机器人发送
 ```
